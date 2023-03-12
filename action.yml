@@ -1,0 +1,5 @@
+name: 'GH Pages Minify Action'
+description: 'Minify js, css, and html files in a compiled jekyll github site'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
